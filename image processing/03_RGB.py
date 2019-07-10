@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 
 imageFile = 'C:/0710pcv/cof.png'
 imgBGR = cv2.imread(imageFile)#opencv->BGR
-plt.axis('off')
+plt.axis('off')#x축,y축 표시를 하지 않는다
 #plt.imshow(imgBGR)
 #plt.show()
 
